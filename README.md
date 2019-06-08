@@ -1,4 +1,4 @@
-#Sparkify ETL , S3 to Redshift
+# Sparkify ETL , S3 to Redshift
 
 This is just me practicing copying data from s3 files into my redshift tables. I try to choose
 a clever distribution strategy and I test it against redshifts default distribution strategy. 
