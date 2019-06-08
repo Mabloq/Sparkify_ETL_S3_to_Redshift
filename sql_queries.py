@@ -42,11 +42,11 @@ staging_events_table_create = ("""
 
 staging_songs_table_create = ("""
     CREATE TABLE IF NOT EXISTS staging_songs
-        (artist_id           varchar distkey sortkey,
+        (artist_id           varchar,
          artist_latitude    numeric(10,5),
          artist_location     varchar,
          artist_longitude    numeric(10,5),
-         artist_name         varchar,
+         artist_name         varchar  distkey sortkey,
          duration            numeric(10,5),
          num_songs            int,
          song_id             varchar,
