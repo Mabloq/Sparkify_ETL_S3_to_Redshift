@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19544d1f-96cf-4bc4-86e0-8f860994b126" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dwh.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/dwh.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/analytics_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_queries.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="analytics_test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="analytics_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/analytics_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -38,15 +40,15 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+              <first_editor relative-caret-position="2505">
+                <caret line="167" column="4" lean-forward="true" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dwh.cfg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dwh.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dwh.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -58,8 +60,8 @@
       <file leaf-file-name="etl.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+            <state relative-caret-position="90">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -82,8 +84,8 @@
       <file leaf-file-name="sql_queries.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_queries.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="91" selection-start-line="91" selection-end-line="99" selection-end-column="4" />
+            <state relative-caret-position="1575">
+              <caret line="105" column="31" lean-forward="true" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -106,14 +108,14 @@
       <list>
         <option value="$PROJECT_DIR$/create_tables.py" />
         <option value="$PROJECT_DIR$/dwh.config" />
-        <option value="$PROJECT_DIR$/etl.py" />
-        <option value="$PROJECT_DIR$/analytics_test.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/etl (6).ipynb" />
-        <option value="$PROJECT_DIR$/sql_queries.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dwh.cfg" />
+        <option value="$PROJECT_DIR$/sql_queries.py" />
+        <option value="$PROJECT_DIR$/etl.py" />
+        <option value="$PROJECT_DIR$/analytics_test.py" />
       </list>
     </option>
   </component>
@@ -205,14 +207,14 @@
     <frame x="164" y="22" width="1515" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966533" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32945284" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32945284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32945284" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32945284" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -360,16 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -380,20 +372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analytics_test.py">
+    <entry file="file://$PROJECT_DIR$/dwh.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="435">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -409,25 +391,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql_queries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="91" selection-start-line="91" selection-end-line="99" selection-end-column="4" />
+        <state relative-caret-position="1575">
+          <caret line="105" column="31" lean-forward="true" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+          <first_editor relative-caret-position="2505">
+            <caret line="167" column="4" lean-forward="true" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dwh.cfg">
+    <entry file="file://$PROJECT_DIR$/etl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analytics_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -18,7 +18,7 @@ time_table_drop = "DROP TABLE IF EXISTS time"
 
 staging_events_table_create = ("""
     CREATE TABLE IF NOT EXISTS staging_events
-        (event_key    int identity(0,1),
+        (event_key    int identity(0,1) primary key,
          artist       varchar distkey sortkey,
          auth            varchar,
          first_name      varchar,
@@ -42,7 +42,7 @@ staging_events_table_create = ("""
 
 staging_songs_table_create = ("""
     CREATE TABLE IF NOT EXISTS staging_songs
-        (artist_id           varchar,
+        (artist_id           varchar primary key,
          artist_latitude    numeric(10,5),
          artist_location     varchar,
          artist_longitude    numeric(10,5),
@@ -58,7 +58,7 @@ staging_songs_table_create = ("""
 songplay_table_create = ("""
     CREATE TABLE IF NOT EXISTS songplays 
         (
-         start_time       timestamp NOT NULL          ,
+         start_time       timestamp NOT NULL primary key,
          user_id          varchar(20) NOT NULL,
          level            text NOT NULL,
          song_id          varchar(20) NOT NULL,
@@ -71,7 +71,7 @@ songplay_table_create = ("""
 
 user_table_create = ("""
   CREATE TABLE IF NOT EXISTS users
-        (user_id varchar(20) NOT NULL,
+        (user_id varchar(20) NOT NULL primary key,
          first_name text NOT NULL,
          last_name text NOT NULL,
          gender text NOT NULL,
@@ -81,7 +81,7 @@ user_table_create = ("""
 
 song_table_create = ("""
   CREATE TABLE IF NOT EXISTS songs
-        (song_id varchar(20),
+        (song_id varchar(20) primary key,
          title text,
          artist_id varchar(20) distkey sortkey,
          year smallint,
@@ -91,7 +91,7 @@ song_table_create = ("""
 
 artist_table_create = ("""
    CREATE TABLE IF NOT EXISTS artists
-        (artist_id varchar(20) NOT NULL distkey sortkey,
+        (artist_id varchar(20) NOT NULL primary key distkey sortkey,
          name text NOT NULL,
          location text ,
          latitude numeric(10,5),
@@ -101,7 +101,7 @@ artist_table_create = ("""
 
 time_table_create = ("""
   CREATE TABLE IF NOT EXISTS time
-        (start_time timestamp NOT NULL,
+        (start_time timestamp NOT NULL primary key,
          hour smallint NOT NULL,
          day smallint NOT NULL,
          week smallint NOT NULL,
